@@ -1,7 +1,7 @@
 module.exports = {
   s3: {
-    accessKeyId: '6EN6UBG308XB0TPRU59R', 
-    secretAccessKey: 'mBv5rVVaiTrwLQbsfroE6vZUh7VROVKfHqlejldn',
+    accessKeyId: process.env.WASABI_KEY_ID,
+    secretAccessKey: process.env.WASABI_KEY_SECRET,
     endpoint: 's3.eu-west-2.wasabisys.com', 
     bucket: 'esgi-cloud-exam-bucket-27352', 
   },
